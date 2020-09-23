@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/splash_screen_t"
+    tools:context=".SplashActivity">
+
+
+    <!-- to add logo in the center of screen  -->
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/loginsplash"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="200dp"
+        />
+
+    <!-- to add textview for the appname  -->
+    <TextView
+        android:id="@+id/creator_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyLoginApp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlue"
+        android:background="@color/colorGrey"
+        />
+
+
+</RelativeLayout>
